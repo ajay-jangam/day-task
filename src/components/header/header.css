@@ -1,0 +1,9 @@
+.headerWrapper {
+	padding: 1rem 2rem;
+}
+
+.headerWrapper .dayTaskIcon {
+	margin-right: auto;
+	display: flex;
+	cursor: pointer;
+}

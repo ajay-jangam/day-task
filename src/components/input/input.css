@@ -1,0 +1,64 @@
+.inputClass {
+	position: relative;
+	margin: 1rem 0;
+}
+
+.inputClass label {
+	color: #8caab9;
+	font-family: var(--inter_light);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.3;
+	display: block;
+}
+
+.inputClass a {
+	color: #fed36a;
+	text-decoration: none;
+}
+
+.inputClass input {
+	background-color: #455a64;
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18.857px;
+	padding: 1.5rem 3rem 1.5rem 4rem;
+	width: -webkit-fill-available;
+	margin-top: 1rem;
+	border: none;
+	border-radius: 9px;
+}
+
+.inputClass input:focus-visible {
+	outline: none;
+}
+
+.inputClass input::placeholder {
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18.857px;
+}
+
+.inputClass .inputIconLeft {
+	position: absolute;
+	top: 4rem;
+	left: 1.3rem;
+	width: 20px;
+}
+
+.inputClass .inputIconRight {
+	position: absolute;
+	top: 4rem;
+	right: 1rem;
+	width: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+}

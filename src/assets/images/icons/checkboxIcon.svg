@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="319.247 197.792 22.873 22.394" xmlns="http://www.w3.org/2000/svg">
+  <g style="" transform="matrix(1, 0, 0, 1, 2.842170943040401e-14, 0)">
+    <g id="Iconsax/Broken/ticksquare" transform="matrix(1, 0, 0, 1, 318.638283, 197.027104)">
+      <path id="Vector" d="M 2 12.96 L 2 15 C 2 20 4 22 9 22 L 15 22 C 20 22 22 20 22 15 L 22 9 C 22 4 20 2 15 2 L 9 2 C 4 2 2 4 2 9" stroke-linecap="round" stroke-linejoin="round" style="paint-order: fill; stroke: rgb(254, 211, 106); fill: rgba(0, 0, 0, 0);" stroke-width="1.5"/>
+      <g>
+        <path id="Vector_2" d="M 7.88 12 L 10.639 14.731 L 16.12 9.266" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="paint-order: fill; stroke: rgb(254, 211, 106); fill: rgba(0, 0, 0, 0);"/>
+      </g>
+    </g>
+  </g>
+</svg>

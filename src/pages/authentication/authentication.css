@@ -1,0 +1,109 @@
+.signWrapper a {
+	color: #fed36a;
+	text-decoration: none;
+}
+
+.signWrapper {
+	max-width: 500px;
+	margin: auto;
+	text-align: left;
+	padding: 2rem;
+}
+
+.signWrapper .title {
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 15.304px;
+}
+
+.signWrapper .subTitle {
+	color: #8caab9;
+	font-family: var(--inter_light);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 18.857px;
+}
+
+.signWrapper .signInContent form .forgotPassword {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+}
+
+.signWrapper .signInContent form .logInBtn {
+	min-width: 100%;
+	margin-top: 3rem;
+}
+
+.signWrapper .optionalLogInText {
+	text-align: center;
+	margin: 2rem 0;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.signWrapper .optionalLogInText::after {
+	position: absolute;
+	content: "";
+	width: 33%;
+	height: 1px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background-color: #8caab9;
+}
+
+.signWrapper .optionalLogInText::before {
+	position: absolute;
+	content: "";
+	width: 33%;
+	height: 1px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-color: #8caab9;
+}
+
+.signWrapper .signUpLink {
+	text-align: center;
+}
+.signWrapper .signUpLink span {
+	color: #fed36a;
+}
+
+.privacy-policy-input {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.privacy-policy-input .inputIconLeft {
+	width: 25px;
+	position: absolute;
+	top: 20px;
+	left: 4px;
+}
+
+.privacy-policy-input label p {
+	cursor: pointer;
+}
+#privacyPolicy {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	margin-right: 1rem;
+	pointer-events: none;
+	visibility: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+	.signWrapper .signInContent .title {
+		font-size: 32px;
+	}
+}
