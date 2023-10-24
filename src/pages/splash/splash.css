@@ -1,0 +1,36 @@
+.splashWrapper .splashContainer .splashContent {
+	max-width: 510px;
+	text-align: left;
+	margin-left: 8rem;
+}
+
+.splashWrapper .splashContainer .splashContent .title {
+	color: #fff;
+	font-family: var(--pilar--extended);
+	font-size: 61px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 60px;
+	margin: 0 0 3rem 0;
+}
+
+.splashWrapper .splashContainer .splashContent .title span {
+	color: #fed36a;
+}
+
+.splashWrapper .splashContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 96px);
+}
+
+.splashWrapper .splashContainer .splashBanner {
+	width: 32%;
+}
+
+.splashWrapper .splashContainer .splashBanner .bannerImage {
+	background: #fff;
+	padding: 2rem;
+	width: 100%;
+}
