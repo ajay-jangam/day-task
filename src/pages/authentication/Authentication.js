@@ -12,10 +12,6 @@ const Authentication = () => {
 	const [checkbox, setCheckbox] = useState(false)
 	const [enableSignUp, setEnableSignUp] = useState(false)
 
-	const checkboxStatus = () => {
-		setCheckbox((preValue) => !preValue)
-	}
-
 	const privacyPolicyTextLink = (
 		<p>
 			I have read & agreed to DayTask{" "}
@@ -94,8 +90,8 @@ const Authentication = () => {
 					type='checkbox'
 					className='privacy-policy'
 					label={privacyPolicyTextLink}
-					onChange={checkboxStatus}
-					checkboxStatus={checkbox}
+					onChange={() => setCheckbox((preValue) => !preValue)}
+					isCheckbox={checkbox}
 				/>
 
 				<Button

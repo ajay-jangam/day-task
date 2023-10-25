@@ -21,7 +21,7 @@ const Button = (props) => {
 						alt={ButtonIconAlt}
 					/>
 				)}
-				{value}
+				{value && value}
 			</p>
 		</button>
 	)

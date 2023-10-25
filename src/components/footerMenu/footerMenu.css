@@ -1,0 +1,72 @@
+.footerMenuWrapper {
+	display: flex;
+	position: sticky;
+	bottom: 0;
+	max-width: 600px;
+	height: 100px;
+	padding: 1rem;
+	margin: 5rem auto 0;
+	background-color: #263238;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.footerMenuWrapper .footerMenuList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.footerMenuWrapper .footerMenuItem a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #617d8a;
+	text-align: center;
+	font-family: Inter;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.03125rem;
+	text-decoration: none;
+}
+
+.footerMenuWrapper .footerMenuItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 20%;
+}
+
+.footerMenuWrapper .footerMenuItemIcon {
+	margin-bottom: 0.7rem;
+	width: 35px;
+}
+
+.footerMenuWrapper .addTaskMenuItem a {
+	padding: 1rem;
+	width: 70px;
+	border-radius: 9px;
+	background-color: #fed36a;
+}
+
+.footerMenuWrapper .addTaskMenuItem .footerMenuItemIcon {
+	margin-bottom: 0;
+}
+
+.footerMenuWrapper .footerMenuItem a:hover,
+.footerMenuWrapper .footerMenuItem a.activeStyled {
+	color: #fed36a;
+}
+
+.footerMenuWrapper .footerMenuItem a:hover .footerMenuItemIcon path,
+.footerMenuWrapper .footerMenuItem a.activeStyled .footerMenuItemIcon path {
+	stroke: #fed36a;
+}
+
+.footerMenuWrapper .addTaskMenuItem a:hover .footerMenuItemIcon path {
+	stroke: #263238;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import "./splash.css"
 import SplashhomeBanner from "../../assets/images/homeBanner.png"
 import Button from "../../components/button/Button"

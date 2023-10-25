@@ -1,0 +1,228 @@
+.searchForm {
+	max-width: 550px;
+	display: flex;
+	align-items: center;
+	margin: 0 0 0 auto;
+}
+
+.searchForm .inputClass {
+	flex-basis: 85%;
+	margin-right: 1rem;
+}
+
+.searchForm .inputIconLeft {
+	top: 1.3rem;
+	width: 30px;
+}
+
+.searchForm .inputClass input {
+	margin: 0;
+}
+
+.searchForm .mainBtn {
+	flex-basis: 15%;
+}
+.completedTask {
+	margin: 3rem 0 5rem;
+}
+.myAccountWrapper .textContent {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 0;
+}
+
+.myAccountWrapper .sectionTitle {
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.71875rem;
+}
+.myAccountWrapper .seeAllTaskLink {
+	color: #fed36a;
+	text-align: right;
+	font-family: var(--inter_light);
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.71875rem;
+	text-decoration: none;
+}
+
+.myAccountWrapper .carousel-cell {
+	max-width: 320px;
+	min-height: 230px;
+	margin-right: 10px;
+}
+
+.myAccountWrapper .carousel-cell .taskContent {
+	background-color: #455a64;
+	padding: 1rem;
+	border-radius: 9px;
+}
+
+.myAccountWrapper .carousel-cell .taskContent .taskTitle {
+	color: #fff;
+	font-family: var(--pilat--extended);
+	font-size: 1.75rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.59375rem;
+	text-align: left;
+}
+
+.myAccountWrapper .taskTeam {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.myAccountWrapper .taskMemberText,
+.myAccountWrapper .taskProgressBarText {
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.03125rem;
+	margin: 0;
+}
+
+.myAccountWrapper .taskProgress {
+	color: #fff;
+	text-align: right;
+	font-family: var(--inter_light);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.03125rem;
+	margin: 0;
+}
+
+.myAccountWrapper .taskTeam .taskMemberIcons {
+	margin-right: 12px;
+}
+
+.myAccountWrapper .taskTeam .taskMemberIcon {
+	width: 40px;
+	margin-right: -12px;
+}
+
+.taskProgressBarWrapper .taskProgressBarDetails {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.taskProgressBarWrapper .taskProgressBar {
+	width: 100%;
+	height: 10px;
+	background: #fff;
+	border-radius: 50px;
+	margin-bottom: 0.5rem;
+}
+
+/* Selected Slide CSS */
+
+.myAccountWrapper .carousel-cell.is-selected .taskContent {
+	background-color: #fed36a;
+}
+
+.myAccountWrapper .carousel-cell.is-selected .taskContent .taskTitle {
+	color: #000;
+}
+.myAccountWrapper .carousel-cell.is-selected .taskMemberText,
+.myAccountWrapper .carousel-cell.is-selected .taskProgressBarText {
+	color: #212832;
+}
+
+.myAccountWrapper .carousel-cell.is-selected .taskProgress {
+	color: #000;
+}
+
+.carousel-cell.is-selected .taskProgressBarWrapper .taskProgressBar {
+	background: #212832;
+}
+
+/* Ongoing Project CSS */
+
+.myAccountWrapper .ongoingProjectCards {
+	gap: 1rem;
+	margin: -5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.myAccountWrapper .ongoingProjectCard {
+	padding: 1rem;
+	background-color: #455a64;
+	flex-basis: calc(50% - 1.5rem);
+	border-radius: 9px;
+	margin: 5px;
+	text-align: left;
+}
+.myAccountWrapper .projectTitle {
+	color: #fff;
+	font-family: var(--pilat--extended);
+	font-size: 1.75rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.59375rem;
+}
+
+.myAccountWrapper .projectMemberText,
+.myAccountWrapper .projectDueDetails {
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 1.2rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.03125rem;
+}
+
+.myAccountWrapper .projectProgress {
+	color: #fff;
+	font-family: var(--inter_light);
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.03125rem;
+	margin: 0;
+}
+
+.myAccountWrapper .projectStatistics {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.myAccountWrapper .projectMemberIcons {
+	margin-bottom: 2rem;
+}
+.myAccountWrapper .projectMemberIcon {
+	width: 35px;
+	margin-right: -12px;
+}
+
+.myAccountWrapper .projectProgressBar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid rgba(44, 70, 83, 1);
+	position: relative;
+}
+
+.myAccountWrapper .projectProgressBar::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid rgba(254, 211, 106, 1);
+	border-right: 5px solid rgba(44, 70, 83, 1);
+}

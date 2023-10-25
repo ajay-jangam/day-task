@@ -16,7 +16,7 @@ const Input = (props) => {
 		iconLeftAlt,
 		iconRightUrl,
 		iconRightAlt,
-		checkboxStatus,
+		isCheckbox,
 	} = props
 
 	return (
@@ -33,19 +33,19 @@ const Input = (props) => {
 				{type === "checkbox" && (
 					<img
 						className='inputIconLeft'
-						src={checkboxStatus ? CheckedIcon : UncheckedIcon}
+						src={isCheckbox ? CheckedIcon : UncheckedIcon}
 						alt='checkbox'
 					/>
 				)}
 
-				<label htmlFor={id}>{label}</label>
+				{label && <label htmlFor={id}>{label}</label>}
+
 				<input
 					id={id}
 					type={type}
 					style={style}
 					onChange={type === "checkbox" ? onChange : null}
 					placeholder={placeholder}
-					checkboxStatus={checkboxStatus}
 				/>
 				{iconRightUrl && (
 					<img

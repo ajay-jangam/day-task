@@ -1,9 +1,49 @@
 .headerWrapper {
 	padding: 1rem 2rem;
+	display: flex;
+	align-items: center;
 }
 
 .headerWrapper .dayTaskIcon {
 	margin-right: auto;
 	display: flex;
 	cursor: pointer;
+	width: 100px;
+}
+
+.myAccountHeaderWrapper {
+	display: flex;
+	justify-content: end;
+}
+
+.myAccountHeaderWrapper .userDetails {
+	display: flex;
+	align-items: end;
+	text-align: right;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.myAccountHeaderWrapper .welcomeText {
+	color: #fed36a;
+	font-family: var(--inter_light);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 18.857px;
+	margin: 0;
+}
+
+.myAccountHeaderWrapper .userName {
+	color: #fff;
+	font-family: var(--pilat--extended);
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.71875rem;
+	margin: 0;
+}
+.myAccountHeaderWrapper .userProfilImg {
+	width: 60px;
+	margin-left: 1.5rem;
 }

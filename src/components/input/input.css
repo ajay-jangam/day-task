@@ -38,12 +38,12 @@
 }
 
 .inputClass input::placeholder {
-	color: #fff;
+	color: #6f8793;
 	font-family: var(--inter_light);
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 18.857px;
+	line-height: 1.17856rem;
 }
 
 .inputClass .inputIconLeft {

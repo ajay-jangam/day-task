@@ -1,0 +1,25 @@
+import React from "react"
+
+const HomeIcon = (props) => {
+	const { className } = props
+
+	return (
+		<svg
+			width='22'
+			height='22'
+			viewBox='0 0 22 22'
+			fill='none'
+			className={className}
+			xmlns='http://www.w3.org/2000/svg'>
+			<path
+				d='M21 9.498C21 8.288 20.19 6.738 19.2 6.048L13.02 1.718C11.62 0.737996 9.37 0.787996 8.02 1.838L2.63 6.038C1.73 6.738 1 8.228 1 9.358V16.768C1 19.088 2.89 20.988 5.21 20.988H16.79C19.11 20.988 21 19.088 21 16.778V13.678M11 16.988V13.988'
+				stroke='#617D8A'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+		</svg>
+	)
+}
+
+export default HomeIcon
